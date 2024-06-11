@@ -7,7 +7,6 @@ const url = require('../url')
 let mcl = mongodb.MongoClient
 //create router instance
 let router = express.Router()
-
 //create rest api
 router.post("/", (req, res) => {
     let obj = req.body
